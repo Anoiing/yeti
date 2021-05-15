@@ -15,4 +15,18 @@
 <style lang="scss">
 	@import "uview-ui/index.scss";
 	/*每个页面公共css */
+	.u-tabbar {
+		.u-tabbar__content {
+			.u-tabbar__content__item:not(:nth-child(3)) {
+				.u-tabbar__content__item__text {
+					font-size: 12px;
+				}
+			}
+			.u-tabbar__content__item:nth-child(3) {
+				.u-tabbar__content__item__text {
+					font-size: 15px;
+				}
+			}
+		}
+	}
 </style>
