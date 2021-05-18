@@ -12,6 +12,7 @@
 
 <script>
 export default {
+	name: 'mainTabBar',
 	props:{
 		tabBarData: {
 			type: Array,

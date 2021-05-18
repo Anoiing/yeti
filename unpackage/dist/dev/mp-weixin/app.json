@@ -8,7 +8,8 @@
   ],
   "subPackages": [],
   "window": {
-    "navigationStyle": "custom"
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
@@ -44,5 +45,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }
