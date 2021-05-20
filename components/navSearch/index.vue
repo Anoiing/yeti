@@ -1,8 +1,9 @@
 <template>
     <u-search
+      disabled
       placeholder="请输入搜索内容"
       shape="round"
-      :show-action="showAction"
+      :show-action="false"
       @click="handleGoSearch"
     />
 </template>
@@ -10,12 +11,6 @@
 <script>
 export default {
   name: "navSearch",
-  props: {
-    showAction: {
-      type: Boolean,
-      default: false,
-    },
-  },
   data() {
     return {};
   },
