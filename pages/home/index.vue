@@ -52,33 +52,61 @@ export default {
     };
   },
   onLoad() {
+    // 底下Tab数据传入，交给uView处理
     this.tabBarData = tabBarData;
+
+    // 获取配置信息
     getProfile().then((res) => {
-      console.log(res);
+      // console.log(res);
     });
-    const date = `${new Date().getMonth() + 1}/${new Date().getDate()}`;
-    console.log(date);
-    getHistoryToday({
-      key: "bb930191a775c236534119bdc6df760f",
-      date,
-    }).then(({ result, reason }) => {
-      if (reason === "success" && result.length > 0) {
-        const rand = Math.floor(Math.random() * result.length);
-        this.historyToday = result[rand];
-        console.log(rand, this.historyToday);
-      }
-    });
+
+    // 初始化历史上的今天
+    this.loadHistoryTodayData();
+
+    // 初始化首页Tab菜单
     getTabMenus().then(({ data }) => {
-      console.log(data);
       let menuList = [];
       data.forEach((o) => {
         menuList = menuList.concat(o.menues);
       });
-      console.log(menuList);
       this.menuList = menuList;
     });
   },
   methods: {
+    // 获取历史上的今天数据
+    loadHistoryTodayData() {
+      const date = `${new Date().getMonth() + 1}/${new Date().getDate()}`;
+      const getHistoryTodayData = () => getHistoryToday({
+        key: "bb930191a775c236534119bdc6df760f",
+        date,
+      }).then(({ result, reason }) => {
+        if (reason === "success" && result.length > 0) {
+          uni.setStorageSync(date, JSON.stringify(result));
+          getRandomData(result);
+        }
+      });
+      // 在数组里随机取一个
+      const getRandomData = (l) => {
+        if (l.length > 0) {
+          const rand = Math.floor(Math.random() * l.length);
+          this.historyToday = l[rand];
+        }
+      };
+      // 尝试取本地缓存的数据，没有或数据格式错误则重新获取
+      let storageHistoryToday = uni.getStorageSync(date);
+      if (storageHistoryToday) {
+        try {
+          storageHistoryToday = JSON.parse(storageHistoryToday);
+          getRandomData(storageHistoryToday);
+        } catch (error) {
+          getHistoryTodayData();
+        }
+      } else {
+        getHistoryTodayData();
+      }
+    },
+
+    // 菜单变更
     handleTabChange(index) {
       this.currentMenu = index;
       console.log(menuList[index]);
