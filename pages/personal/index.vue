@@ -56,13 +56,12 @@
         </view>
       </view>
     </view>
-    <mainTabBar :tabBarData="tabBarData" />
+    <mainTabBar />
   </view>
 </template>
 
 <script>
 import mainTabBar from "../../components/mainTabBar/index.vue";
-import tabBarData from "../../constants/tabBarData.js";
 import customNav from "../../components/customNav/index.vue";
 
 export default {
@@ -72,11 +71,9 @@ export default {
   },
   data() {
     return {
-      tabBarData: [],
     };
   },
   onLoad() {
-    this.tabBarData = tabBarData;
   },
   methods: {
     handleLogout() {

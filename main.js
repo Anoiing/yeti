@@ -1,15 +1,21 @@
-import Vue from 'vue'
-import App from './App'
+import Vue from 'vue';
+import App from './App';
 
-Vue.config.productionTip = false
+// App.mpType = 'app';
+// var gio = require("./utils/gio-minp/index.js").default;
+// gio("init", "abe974f37e10b497", "wxd703bebcd9364ca7", {
+// 	version: "0.0.1",
+// 	vue: Vue,
+// 	debug: true,
+// });
 
-App.mpType = 'app'
+Vue.config.productionTip = false;
 
 // 引入全局uView
-import uView from 'uview-ui'
+import uView from 'uview-ui';
 Vue.use(uView);
 
 const app = new Vue({
-    ...App
-})
-app.$mount()
+	...App
+});
+app.$mount();

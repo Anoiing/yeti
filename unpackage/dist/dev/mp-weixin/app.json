@@ -4,7 +4,8 @@
     "pages/plates/index",
     "pages/publish/index",
     "pages/message/index",
-    "pages/personal/index"
+    "pages/personal/index",
+    "pages/detail/index"
   ],
   "subPackages": [],
   "window": {
@@ -45,6 +46,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

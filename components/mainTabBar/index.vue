@@ -11,14 +11,15 @@
 </template>
 
 <script>
+import tabBarData from "../../constants/tabBarData.js";
+
 export default {
 	name: 'mainTabBar',
-	props:{
-		tabBarData: {
-			type: Array,
-			default: [],
-		},
-	}
+	data() {
+		return {
+			tabBarData,
+		}
+	},
 };
 </script>
 
