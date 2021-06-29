@@ -19,7 +19,7 @@
 import { getHistoryToday } from "utils/services.js";
 
 export default {
-  name: "historyToday",
+  name: "HistoryToday",
   data() {
     return {
       historyToday: {}

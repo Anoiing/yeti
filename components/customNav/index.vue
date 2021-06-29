@@ -2,18 +2,18 @@
   <u-navbar :is-back="false" title="">
     <view class="u-flex u-padding-left-24 u-padding-right-24">
       <view class="iconfont icon-home u-margin-right-16" @click="handleHome"></view>
-      <navSearch />
+      <NavSearch />
     </view>
   </u-navbar>
 </template>
 
 <script>
-import navSearch from "components/navSearch/index.vue";
+import NavSearch from "components/NavSearch";
 
 export default {
   name: "customNav",
   components: {
-    navSearch,
+    NavSearch,
   },
   data() {
     return {};

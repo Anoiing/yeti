@@ -8089,10 +8089,7 @@ function normalizeComponent (
 
 
 /***/ }),
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */
+/* 11 */
 /*!***********************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/index.js ***!
   \***********************************************************/
@@ -8101,15 +8098,11 @@ function normalizeComponent (
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 15));
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 12));
 
 
 
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 16));
-
-
-
-
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 13));
 
 
 
@@ -8126,56 +8119,60 @@ var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 
 
 
 
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 20));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 21));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 25));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 26));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 27));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 28));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 29));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 30));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 31));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 18));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 17));
-
-var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 32));
-
-
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 19));
-
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 33));
-
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 34));
-
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 35));
-
-var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 36));
-
-var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 37));
 
 
 
-var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 38);
 
-var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 39));
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 17));
 
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 40));
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 18));
+
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 22));
+
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 23));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 24));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 25));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 26));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 27));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 28));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 15));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 14));
+
+var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 29));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 16));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 30));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 31));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 32));
+
+var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 33));
+
+var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 34));
 
 
 
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 41));
+var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 35);
 
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 36));
+
+var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 37));
+
+
+
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 38));
+
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 39));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
 // 引入关于是否mixin集成小程序分享的配置
 // import wxshare from './libs/mixin/mpShare.js'
 // 全局挂载引入http相关请求拦截插件
@@ -8243,7 +8240,7 @@ var install = function install(Vue) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 15 */
+/* 12 */
 /*!**********************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/mixin/mixin.js ***!
   \**********************************************************************/
@@ -8316,7 +8313,7 @@ var install = function install(Vue) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 16 */
+/* 13 */
 /*!************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/request/index.js ***!
   \************************************************************************/
@@ -8324,8 +8321,8 @@ var install = function install(Vue) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 17));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 14));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
 Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
     // 设置全局默认配置
     value: function setConfig(customConfig) {
@@ -8496,7 +8493,7 @@ new Request();exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 17 */
+/* 14 */
 /*!*****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/deepMerge.js ***!
   \*****************************************************************************/
@@ -8504,7 +8501,7 @@ new Request();exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 15));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // JS对象深度合并
 function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -8536,7 +8533,7 @@ function deepMerge() {var target = arguments.length > 0 && arguments[0] !== unde
 deepMerge;exports.default = _default;
 
 /***/ }),
-/* 18 */
+/* 15 */
 /*!*****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/deepClone.js ***!
   \*****************************************************************************/
@@ -8569,7 +8566,7 @@ function deepClone(obj) {
 deepClone;exports.default = _default;
 
 /***/ }),
-/* 19 */
+/* 16 */
 /*!************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/test.js ***!
   \************************************************************************/
@@ -8810,7 +8807,7 @@ function code(value) {var len = arguments.length > 1 && arguments[1] !== undefin
   code: code };exports.default = _default;
 
 /***/ }),
-/* 20 */
+/* 17 */
 /*!*******************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/queryParams.js ***!
   \*******************************************************************************/
@@ -8878,7 +8875,7 @@ function queryParams() {var data = arguments.length > 0 && arguments[0] !== unde
 queryParams;exports.default = _default;
 
 /***/ }),
-/* 21 */
+/* 18 */
 /*!*************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/route.js ***!
   \*************************************************************************/
@@ -8886,7 +8883,7 @@ queryParams;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 22));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   * 并且带有路由拦截功能
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   */var
@@ -9011,17 +9008,17 @@ new Router().route;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 22 */
+/* 19 */
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 23);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 20);
 
 /***/ }),
-/* 23 */
+/* 20 */
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9052,7 +9049,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 24);
+module.exports = __webpack_require__(/*! ./runtime */ 21);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -9068,7 +9065,7 @@ if (hadRuntime) {
 
 
 /***/ }),
-/* 24 */
+/* 21 */
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -9799,7 +9796,7 @@ if (hadRuntime) {
 
 
 /***/ }),
-/* 25 */
+/* 22 */
 /*!******************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/timeFormat.js ***!
   \******************************************************************************/
@@ -9860,7 +9857,7 @@ function timeFormat() {var dateTime = arguments.length > 0 && arguments[0] !== u
 timeFormat;exports.default = _default;
 
 /***/ }),
-/* 26 */
+/* 23 */
 /*!****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/timeFrom.js ***!
   \****************************************************************************/
@@ -9868,7 +9865,7 @@ timeFormat;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 25));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 22));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 /**
                                                                                                                                                                                                                                                                                           * 时间戳转为多久之前
@@ -9917,7 +9914,7 @@ function timeFrom() {var dateTime = arguments.length > 0 && arguments[0] !== und
 timeFrom;exports.default = _default;
 
 /***/ }),
-/* 27 */
+/* 24 */
 /*!*********************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/colorGradient.js ***!
   \*********************************************************************************/
@@ -10060,7 +10057,7 @@ function colorToRgba(color) {var alpha = arguments.length > 1 && arguments[1] !=
   colorToRgba: colorToRgba };exports.default = _default;
 
 /***/ }),
-/* 28 */
+/* 25 */
 /*!************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/guid.js ***!
   \************************************************************************/
@@ -10111,7 +10108,7 @@ function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? 
 guid;exports.default = _default;
 
 /***/ }),
-/* 29 */
+/* 26 */
 /*!*************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/color.js ***!
   \*************************************************************************/
@@ -10158,7 +10155,7 @@ var color = {
 color;exports.default = _default;
 
 /***/ }),
-/* 30 */
+/* 27 */
 /*!*****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/type2icon.js ***!
   \*****************************************************************************/
@@ -10203,7 +10200,7 @@ function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefi
 type2icon;exports.default = _default;
 
 /***/ }),
-/* 31 */
+/* 28 */
 /*!*******************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/randomArray.js ***!
   \*******************************************************************************/
@@ -10220,7 +10217,7 @@ function randomArray() {var array = arguments.length > 0 && arguments[0] !== und
 randomArray;exports.default = _default;
 
 /***/ }),
-/* 32 */
+/* 29 */
 /*!***************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/addUnit.js ***!
   \***************************************************************************/
@@ -10228,7 +10225,7 @@ randomArray;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
 function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
@@ -10238,7 +10235,7 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 }
 
 /***/ }),
-/* 33 */
+/* 30 */
 /*!**************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/random.js ***!
   \**************************************************************************/
@@ -10258,7 +10255,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 random;exports.default = _default;
 
 /***/ }),
-/* 34 */
+/* 31 */
 /*!************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/trim.js ***!
   \************************************************************************/
@@ -10283,7 +10280,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 trim;exports.default = _default;
 
 /***/ }),
-/* 35 */
+/* 32 */
 /*!*************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/toast.js ***!
   \*************************************************************************/
@@ -10303,7 +10300,7 @@ toast;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 36 */
+/* 33 */
 /*!*****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/getParent.js ***!
   \*****************************************************************************/
@@ -10360,7 +10357,7 @@ function getParent(name, keys) {
 }
 
 /***/ }),
-/* 37 */
+/* 34 */
 /*!***************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/$parent.js ***!
   \***************************************************************************/
@@ -10388,7 +10385,7 @@ function $parent() {var name = arguments.length > 0 && arguments[0] !== undefine
 }
 
 /***/ }),
-/* 38 */
+/* 35 */
 /*!***********************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/sys.js ***!
   \***********************************************************************/
@@ -10406,7 +10403,7 @@ function sys() {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 39 */
+/* 36 */
 /*!****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/debounce.js ***!
   \****************************************************************************/
@@ -10445,7 +10442,7 @@ function debounce(func) {var wait = arguments.length > 1 && arguments[1] !== und
 debounce;exports.default = _default;
 
 /***/ }),
-/* 40 */
+/* 37 */
 /*!****************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/function/throttle.js ***!
   \****************************************************************************/
@@ -10487,7 +10484,7 @@ function throttle(func) {var wait = arguments.length > 1 && arguments[1] !== und
 throttle;exports.default = _default;
 
 /***/ }),
-/* 41 */
+/* 38 */
 /*!************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/config/config.js ***!
   \************************************************************************/
@@ -10510,7 +10507,7 @@ var version = '1.8.3';var _default =
   'warning'] };exports.default = _default;
 
 /***/ }),
-/* 42 */
+/* 39 */
 /*!************************************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/uview-ui/libs/config/zIndex.js ***!
   \************************************************************************/
@@ -10539,55 +10536,25 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   indexListSticky: 965 };exports.default = _default;
 
 /***/ }),
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */
+/* 40 */
 /*!*****************************************************************!*\
-  !*** /Users/anoi/HBuilderProjects/yeti/constants/tabBarData.js ***!
+  !*** /Users/anoi/HBuilderProjects/yeti/utils/gio-minp/index.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = [
-{
-  iconPath: "/static/tabIcons/home.png",
-  selectedIconPath: "/static/tabIcons/home_active.png",
-  text: "首页",
-  pagePath: "/pages/home/index" },
-
-{
-  iconPath: "/static/tabIcons/plates.png",
-  selectedIconPath: "/static/tabIcons/plates_active.png",
-  text: "板块",
-  pagePath: "/pages/plates/index" },
-
-{
-  iconPath: "/static/tabIcons/publish.png",
-  selectedIconPath: "/static/tabIcons/publish_active.png",
-  text: "发布",
-  midButton: true,
-  pagePath: "/pages/publish/index" },
-
-{
-  iconPath: "/static/tabIcons/message.png",
-  selectedIconPath: "/static/tabIcons/message_active.png",
-  text: "消息",
-  pagePath: "/pages/message/index" },
-
-{
-  iconPath: "/static/tabIcons/personal.png",
-  selectedIconPath: "/static/tabIcons/personal_active.png",
-  text: "我的",
-  pagePath: "/pages/personal/index" }];exports.default = _default;
+/* WEBPACK VAR INJECTION */(function(global) {Object.defineProperty(exports, "__esModule", { value: true });exports.growingio = exports.gioEmitter = exports.GioPage = exports.GioComponent = exports.GioBehavior = exports.GioApp = exports.default = void 0;function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _get(target, property, receiver) {if (typeof Reflect !== "undefined" && Reflect.get) {_get = Reflect.get;} else {_get = function _get(target, property, receiver) {var base = _superPropBase(target, property);if (!base) return;var desc = Object.getOwnPropertyDescriptor(base, property);if (desc.get) {return desc.get.call(receiver);}return desc.value;};}return _get(target, property, receiver || target);}function _superPropBase(object, property) {while (!Object.prototype.hasOwnProperty.call(object, property)) {object = _getPrototypeOf(object);if (object === null) break;}return object;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function");}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } });if (superClass) _setPrototypeOf(subClass, superClass);}function _setPrototypeOf(o, p) {_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {o.__proto__ = p;return o;};return _setPrototypeOf(o, p);}function _createSuper(Derived) {var hasNativeReflectConstruct = _isNativeReflectConstruct();return function _createSuperInternal() {var Super = _getPrototypeOf(Derived),result;if (hasNativeReflectConstruct) {var NewTarget = _getPrototypeOf(this).constructor;result = Reflect.construct(Super, arguments, NewTarget);} else {result = Super.apply(this, arguments);}return _possibleConstructorReturn(this, result);};}function _possibleConstructorReturn(self, call) {if (call && (typeof call === "object" || typeof call === "function")) {return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self) {if (self === void 0) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _isNativeReflectConstruct() {if (typeof Reflect === "undefined" || !Reflect.construct) return false;if (Reflect.construct.sham) return false;if (typeof Proxy === "function") return true;try {Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));return true;} catch (e) {return false;}}function _getPrototypeOf(o) {_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {return o.__proto__ || Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _createForOfIteratorHelper(o, allowArrayLike) {var it;if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) {if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {if (it) o = it;var i = 0;var F = function F() {};return { s: F, n: function n() {if (i >= o.length) return { done: true };return { done: false, value: o[i++] };}, e: function e(_e11) {throw _e11;}, f: F };}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}var normalCompletion = true,didErr = false,err;return { s: function s() {it = o[Symbol.iterator]();}, n: function n() {var step = it.next();normalCompletion = step.done;return step;}, e: function e(_e12) {didErr = true;err = _e12;}, f: function f() {try {if (!normalCompletion && it.return != null) it.return();} finally {if (didErr) throw err;}} };}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}var Utils = { devVer: 1, guid: function guid() {return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (t) {var e = 16 * Math.random() | 0;return ("x" == t ? e : 3 & e | 8).toString(16);});}, getScreenHeight: function getScreenHeight(t) {return t.pixelRatio ? Math.round(t.screenHeight * t.pixelRatio) : t.screenHeight;}, getScreenWidth: function getScreenWidth(t) {return t.pixelRatio ? Math.round(t.screenWidth * t.pixelRatio) : t.screenWidth;}, getOS: function getOS(t) {if (t) {var e = t.toLowerCase();return -1 != e.indexOf("android") ? "".concat(gioGlobal.platformConfig.name, "-Android") : -1 != e.indexOf("ios") ? "".concat(gioGlobal.platformConfig.name, "-iOS") : t;}}, getOSV: function getOSV(t) {return "".concat(gioGlobal.platformConfig.name, " ").concat(t);}, isEmpty: function isEmpty(t) {for (var e in t) {if (Object.prototype.hasOwnProperty.call(t, e)) return !1;}return !0;}, compareVersion: function compareVersion(t, e) {t = t.split("."), e = e.split(".");var i = Math.max(t.length, e.length);for (; i > t.length;) {t.push("0");}for (; i > e.length;) {e.push("0");}for (var n = 0; i > n; n++) {var _i = parseInt(t[n]),o = parseInt(e[n]);if (_i > o) return 1;if (o > _i) return -1;}return 0;}, queryParse: function queryParse(t) {var e = {};if (t) {var i = t.split("&");var _iterator = _createForOfIteratorHelper(i),_step;try {for (_iterator.s(); !(_step = _iterator.n()).done;) {var _t = _step.value;var _i2 = _t.split("="),n = _i2.length;2 == n ? e[_i2[0]] = _i2[1] : 1 == n && _i2[0] && (e[_i2[0]] = "");}} catch (err) {_iterator.e(err);} finally {_iterator.f();}}return e;}, queryStringify: function queryStringify(t) {for (var _len = arguments.length, e = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {e[_key - 1] = arguments[_key];}return Object.keys(t).filter(function (t) {return !e || !e.includes(t);}).map(function (e) {return "".concat(e, "=").concat(t[e]);}).join("&");}, clearShareQuery: function clearShareQuery(t) {if (!t) return;var e = Utils.queryParse(t);return delete e.shareId, delete e.contentType, Utils.queryStringify(e);} },splitPath = function splitPath(t) {if (t) {var e = t.indexOf("?");if (-1 !== e) {return [t.substring(0, e), t.substring(e + 1)];}}return [t, ""];},initGlobal = function initGlobal(t) {Object.defineProperty(Object.prototype, "gioGlobal", { get: function get() {return "quickApp" === t ? global.__proto__ : "my" === t ? $global : global;}, configurable: !1, enumerable: !1 });},firstLowerCase = function firstLowerCase(t) {return t.replace(t[0], t[0].toLowerCase());},getDataByPath = function getDataByPath(t, e) {if (!t) return t;var i = e.split(".");var n = t[i.shift()];for (var _t2 = 0, _e = i.length; _e > _t2; _t2++) {var _t3 = i.shift();if (!n) return n;n = n[_t3];}return n;},getManualImpInfo = function getManualImpInfo(t) {var e = { eventId: void 0, properties: {} };try {if (t.hasOwnProperty("gioTrack") && "object" == typeof t.gioTrack) return e.eventId = t.gioTrack.name, e.properties = t.gioTrack.properties, e;if (!t.gioImpTrack) return e;e.eventId = t.gioImpTrack;var i = /^gioTrack(.+)/,n = /^\w+$/;for (var o in t) {var r = void 0,s = o.match(i);if (s && ("track" === (r = firstLowerCase(s[1])) ? e.eventId = t[o] : e.properties[r] = t[o]), !n.test(e.eventId) || 10 > parseInt(e.eventId[0])) throw e.eventId = null, Error();}} catch (t) {console.warn("半打点IMP格式不正确, 事件名只能包含数字，字母和下划线，且不以数字开头, 请参考文档");}return e;},isString = function isString(t) {return t && "string" == typeof t && t.constructor === String;},normalPath = function normalPath(t) {return /^\//.test(t) ? t : "/" + t;},oldErrorParse = function oldErrorParse(t) {var e;if (t && t.length > 1) {var i = t[1].split(";");if (i && i.length > 1) {var n = i[1].match(/at ([^ ]+) page (.*) function/);e = { key: t[0], error: i[0] }, n && n.length > 2 && (e.page = n[1], e.function = n[2]);}}return e;},newErrorParse = function newErrorParse(t) {var e = [];if (t && t.length > 0) for (var _i3 = 0; t.length > _i3; _i3++) {var _n = t[_i3];if (e[0] = t[_i3 - 1], e[1] = _n, /at /.test(_n)) break;}if (e.some(function (t) {return !t;})) return;var i = e[0].split(/: ?/);if (!i || 2 > i.length) return;var n = e[1].match(/at (.*?) \((.*)\)/);return n && n.length >= 3 ? { key: i[0], error: i[1], function: n[1], page: n[2] } : void 0;},otherErrorParse = function otherErrorParse(t) {if (t && t.length > 0) return { error: t.join("") };},appErrorParse = function appErrorParse(t) {var e = t.split(/[\r\n]/);return newErrorParse(e) || oldErrorParse(e) || otherErrorParse(e);};if (!Object.hasOwnProperty("getOwnPropertyDescriptors")) {var t;t = "object" == typeof Reflect && "function" == typeof Reflect.ownKeys ? Reflect.ownKeys : "function" == typeof Object.getOwnPropertySymbols ? function (t) {return Object.getOwnPropertyNames(t).concat(Object.getOwnPropertySymbols(t));} : Object.getOwnPropertyNames, Object.defineProperty(Object, "getOwnPropertyDescriptors", { configurable: !0, writable: !0, value: function value(e) {return t(e).reduce(function (t, i) {return Object.defineProperty(t, i, { configurable: !0, enumerable: !0, writable: !0, value: Object.getOwnPropertyDescriptor(e, i) });}, {});} });}var queryShareId = void 0;function buildShareQuery(t, e, i) {var n = { gioShareId: Utils.guid(), suid: e },o = Object.assign(Utils.queryParse(t), n),r = o.contentType || i.contentType,s = o.contentId || i.contentId;return r && (n.contentType = r), s && (n.contentId = s), queryShareId && (n.gioPreShareId = queryShareId), [Utils.queryStringify(o), n];}function updateShareResult(t, e, i) {var n = t.growingio;if (n && n.vdsConfig.followShare) {var o = n.info.uid;i || (i = {}), i.title || (i.title = t.info.getPageTitle(e));var r = t.currentPage,_splitPath = splitPath(i.path),_splitPath2 = _slicedToArray(_splitPath, 2),s = _splitPath2[0],a = _splitPath2[1],_buildShareQuery = buildShareQuery(a || i.query, o, i),_buildShareQuery2 = _slicedToArray(_buildShareQuery, 2),g = _buildShareQuery2[0],l = _buildShareQuery2[1];i.query = g, i.path = normalPath((s || r.path) + "?" + g), i.attributes = l;}return i;}function onPageShow(t) {var e = Utils.queryParse(t.query);e.gioShareId && (queryShareId = e.gioShareId);}var sdkVersion = "3.7.0",platformConfig = { wx: { name: "Weixin", path: "./weixin" }, qq: { name: "QQ", path: "./qq" }, my: { name: "Alipay", path: "./alipay" }, swan: { name: "Baidu", path: "./baidu" }, tt: { name: "Bytedance", path: "./bytedance" }, quickApp: { name: "Quickapp", path: "./quickApp" }, frame: { name: "Frame", path: "./multipleFrame" } },Config = Object.assign({}, platformConfig.wx, { platform: "MinP", scnPrefix: "", appHandlers: ["onShow", "onHide", "onError"], pageHandlers: ["onLoad", "onShow", "onShareAppMessage", "onShareTimeline", "onTabItemTap", "onHide", "onUnload"], actionEventTypes: ["onclick", "tap", "longpress", "blur", "change", "submit", "confirm", "getuserinfo", "getphonenumber", "contact"], originalApp: App, originalPage: Page, originalComponent: Component, originalBehavior: Behavior, canHook: !0, hooks: { App: !0, Page: !0, Component: !0, Behavior: !0 }, lisiteners: { app: { appShow: "onShow", appClose: "onHide", appError: "onError" }, page: { pageLoad: "onLoad", pageShow: "onShow", pageHide: "onHide", pageClose: "onUnload", tabTap: "onTabItemTap", shareApp: "onShareAppMessage", shareTime: "onShareTimeline" }, actions: { click: ["onclick", "tap", "longpress", "getuserinfo", "getphonenumber", "contact"], change: ["blur", "change", "confirm"], submit: ["submit"] } } });var platformConfig$1 = Object.assign({}, Config, { sdkVer: "3.7.0" });var proxyVue = function proxyVue(t, e) {void 0 !== t.mixin && t.mixin({ created: function created() {if (!this.$options.methods) return;var t = Object.keys(this.$options.methods);for (var _i4 = 0, _Object$keys = Object.keys(this); _i4 < _Object$keys.length; _i4++) {var _e2 = _Object$keys[_i4];0 > t.indexOf(_e2) || "function" != typeof this[_e2] || (Object.defineProperty(this[_e2], "proxiedName", { value: _e2 }), Object.defineProperty(this[_e2], "isProxied", { value: !0 }));}}, beforeMount: function beforeMount() {var t = this.$root;t.$mp && "page" === t.$mp.mpType ? t.$mp.page && (e.vueRootVMs[t.$mp.page.route] = t) : "page" === t.mpType && "page" === this.mpType && t.$mp.page && (e.vueRootVMs[t.$mp.page.route || t.$mp.page.is] = t, -1 !== ["wx", "qq", "tt"].indexOf(gioGlobal.gio__platform) && VdsInstrumentAgent.instrumentPageComponent(t.$mp.page));} }), console.log("prox", e.vueRootVMs);},proxyTaro = function proxyTaro(t, e, i) {var n = t.createComponent,o = i.usePlugin;if (n && (t.createComponent = function (t, i) {var r = t;for (; r && r.prototype;) {var _i5 = Object.keys(Object.getOwnPropertyDescriptors(r.prototype) || {});for (var _n2 = 0; _i5.length > _n2; _n2++) {if (_i5[_n2].startsWith("func__")) {var _o = r.name,_s2 = _i5[_n2].slice(6);e.taroRootVMs[_i5[_n2]] = _o + "_" + ("" + t.prototype[_i5[_n2]]).match(/this\.__triggerPropsFn\("(.+)",/)[1] + "_" + _s2;}}r = Object.getPrototypeOf(r);}var s = n(t, i),a = -1 !== ["MinP", "qq"].indexOf(platformConfig$1.platform),g = a ? s && s.methods : s;return o ? i && VdsInstrumentAgent.instrumentPageComponent(g) : i && a && VdsInstrumentAgent.instrumentPageComponent(g), s;}), o && t.createApp) {var _e3 = t.createApp;t.createApp = function (t) {var i = _e3(t);return i._growing_app_ = !0, VdsInstrumentAgent.instrument(i), i;};}},wrapperAndNeedHookTaroAction = function wrapperAndNeedHookTaroAction(t) {var e,i = t.currentTarget || t.target;return !!(document && (e = document.getElementById(i.id)) && e.__handlers) && (i.dataset = e.dataset, Array.from(e.__handlers[t.type] || []).some(function (t) {return !t._stop;}));},proxyCml = function proxyCml(t, e) {var i = t.createApp,n = t.createComponent;t.createApp = function (t) {return t._growing_app_ = !0, i(VdsInstrumentAgent.instrument(t));}, t.createComponent = function (t) {return n(t.data && t.data.isComponent ? Object.assign({}, t, { methods: VdsInstrumentAgent.instrument(t.methods) }) : t);};},proxyWepy = function proxyWepy(t, e, i) {var n = t.page,o = function o(t) {var n = Object.keys(t);for (var _o2 = 0; n.length > _o2; _o2++) {var _r = Object.keys(t[n[_o2]]);for (var s = 0; _r.length > s; s++) {if ("function" == typeof t[n[_o2]][_r[s]]) {var a = ("" + t[n[_o2]][_r[s]]).match(/_vm\.(.+)\(.*\)/);a && a[1] && (e.wepyRootVMs[n[_o2]] || (e.wepyRootVMs[n[_o2]] = {}), e.wepyRootVMs[n[_o2]][_r[s]] = a[1]), i.usePlugin && (t[n[_o2]][_r[s]] = VdsInstrumentAgent.hook("_proxy", t[n[_o2]][_r[s]]));}}}};t.page = function (t, e) {return e.handlers && o(e.handlers), VdsInstrumentAgent.instrumentPageComponent(t), n(t, e);};var r = t.component;if (t.component = function (t, e) {return e.handlers && o(e.handlers), r(t, e);}, i.usePlugin) {var _e4 = t.app;t.app = function (t, i) {return t._growing_app_ = !0, _e4(VdsInstrumentAgent.instrument(t), i);};}};var eventStopMap = {};function isPropagationStopped(t) {var e = t.target.id,i = t.currentTarget.id;return !(!i || i === e) && !!eventStopMap[e];}function noEvent(t) {return !t || !t.target || !t.type;}function octopusNeedHook(t, e) {if (!noEvent(e)) return t.includes(e.type) && !isPropagationStopped(e);}function octopusHookEventAfter(t) {if (noEvent(t)) return;t.isPropagationStopped && (eventStopMap[t.target.id] = t.isPropagationStopped());}function octopusClearMap() {eventStopMap = {};}var setShareResult = function setShareResult(t, e, i) {return updateShareResult(VdsInstrumentAgent.observer, t, i);};var isPageShare = function isPageShare(t) {return t == gioGlobal.platformConfig.lisiteners.page.shareApp || t == gioGlobal.platformConfig.lisiteners.page.shareTime;},getConfigByPath = function getConfigByPath(t) {return getDataByPath(VdsInstrumentAgent.observer.growingio, "vdsConfig.".concat(t));},VdsInstrumentAgent = { defaultPageCallbacks: {}, defaultAppCallbacks: {}, appHandlers: null, pageHandlers: null, actionEventTypes: null, originalPage: null, originalApp: null, originalComponent: null, originalBehavior: null, observer: null, hook: function hook(t, e) {return function () {var i,n = arguments ? arguments[0] : void 0;var o = getDataByPath(VdsInstrumentAgent.observer.growingio, "vdsConfig.".concat("octopus"));var r = function r() {if (n && (n.currentTarget || n.target) && -1 != VdsInstrumentAgent.actionEventTypes.indexOf(n.type)) if (gioGlobal.vdsConfig.taro && !gioGlobal.vdsConfig.taro.createApp) wrapperAndNeedHookTaroAction(n) && VdsInstrumentAgent.observer.actionListener(n, t);else try {VdsInstrumentAgent.observer.actionListener(n, t);} catch (t) {console.error(t);}};o || r();var s = gioGlobal.platformConfig.lisiteners.app,a = gioGlobal.platformConfig.lisiteners.page;if (this._growing_app_ && t !== s.appShow ? i = e.apply(this, arguments) : this._growing_page_ && -1 === [a.pageShow, a.pageClose, a.pageLoad, a.pageHide, a.tabTap].indexOf(t) ? i = e.apply(this, arguments) : this._growing_app_ || this._growing_page_ || (i = e.apply(this, arguments)), this._growing_app_) {if (!VdsInstrumentAgent.observer.cdpObserver && -1 !== VdsInstrumentAgent.appHandlers.indexOf(t)) try {VdsInstrumentAgent.defaultAppCallbacks[t].apply(this, arguments);} catch (t) {console.error(t);}t === s.appShow && (i = e.apply(this, arguments));}if (this._growing_page_ && -1 !== VdsInstrumentAgent.pageHandlers.indexOf(t)) {a.shareTime == t ? i = setShareResult(this, !0, i) : a.shareApp == t && (i = setShareResult(this, !1, i));var _n3 = Array.prototype.slice.call(arguments);i && _n3.push(i);try {VdsInstrumentAgent.defaultPageCallbacks[t].apply(this, _n3);} catch (t) {console.error(t);}-1 !== [a.pageShow, a.pageClose, a.pageLoad, a.pageHide, a.tabTap].indexOf(t) && (i = e.apply(this, arguments));}return o && octopusNeedHook(VdsInstrumentAgent.actionEventTypes, n) && r(), octopusHookEventAfter(n), i;};}, hookComponent: function hookComponent(t, e) {return function () {var i,n = arguments ? arguments[0] : void 0;if (n && (n.currentTarget || n.target) && -1 != VdsInstrumentAgent.actionEventTypes.indexOf(n.type)) try {VdsInstrumentAgent.observer.actionListener(n, t);} catch (t) {console.error(t);}return i = e.apply(this, arguments);};}, hookPage: function hookPage(t, e) {return function () {var i = e.apply(this, arguments);t === gioGlobal.platformConfig.lisiteners.page.shareTime ? i = setShareResult(this, !0, i) : t === gioGlobal.platformConfig.lisiteners.page.shareApp && (i = setShareResult(this, !1, i));var n = Array.prototype.slice.call(arguments);return i && n.push(i), VdsInstrumentAgent.observer.pageListener(this, t, n), i;};}, instrument: function instrument(t) {var _this = this;var e = {};var i = function i(_i6) {e[_i6] = "function" == typeof t[_i6] && "constructor" !== _i6 ? _this.hook(_i6, t[_i6]) : t[_i6];};return Object.getOwnPropertyNames(t).forEach(i), t.__proto__ !== Object.prototype && Object.getOwnPropertyNames(t.__proto__).forEach(i), e._growing_app_ && VdsInstrumentAgent.appHandlers.map(function (t) {e[t] || (e[t] = VdsInstrumentAgent.defaultAppCallbacks[t]);}), e._growing_page_ && VdsInstrumentAgent.pageHandlers.map(function (t) {e[t] || t === gioGlobal.platformConfig.lisiteners.page.shareApp || t === gioGlobal.platformConfig.lisiteners.page.shareTime || (e[t] = VdsInstrumentAgent.defaultPageCallbacks[t]);}), e;}, instrumentPageComponent: function instrumentPageComponent(t) {if (t) return VdsInstrumentAgent.pageHandlers.map(function (e) {if ("function" == typeof t[e]) t[e] = VdsInstrumentAgent.hookPage(e, t[e]);else if (e !== gioGlobal.platformConfig.lisiteners.page.shareApp && e !== gioGlobal.platformConfig.lisiteners.page.shareTime) {var i = e;t[e] = function () {VdsInstrumentAgent.observer.pageListener(this, i, arguments);};}}), t;}, instrumentComponent: function instrumentComponent(t) {var _this2 = this;var e = t._growing_aspage_;var i = t.methods || {};return Object.entries(i).forEach(function (_ref) {var _ref2 = _slicedToArray(_ref, 2),t = _ref2[0],n = _ref2[1];"function" == typeof n && (i[t] = function (t) {return -1 != VdsInstrumentAgent.pageHandlers.indexOf(t);}(t) ? e ? _this2.hookPage(t, n) : n : _this2.hookComponent(t, n));}), e && VdsInstrumentAgent.pageHandlers.map(function (t) {if (!i[t] && !isPageShare(t)) {var _e5 = t;i[t] = function () {VdsInstrumentAgent.observer.pageListener(this, _e5, arguments);};}}), t.methods = i, t;}, GrowingPage: function GrowingPage(t) {return t._growing_page_ = !0, VdsInstrumentAgent.originalPage(VdsInstrumentAgent.instrument(t));}, GrowingComponent: function GrowingComponent(t) {return t._growing_aspage_ = gioGlobal.vdsConfig.comAsPage, VdsInstrumentAgent.originalComponent(VdsInstrumentAgent.instrumentComponent(t));}, GrowingBehavior: function GrowingBehavior(t) {return VdsInstrumentAgent.originalBehavior(VdsInstrumentAgent.instrumentComponent(t));}, GrowingApp: function GrowingApp(t) {return t._growing_app_ = !0, VdsInstrumentAgent.originalApp(VdsInstrumentAgent.instrument(t));}, initPlatformInfo: function initPlatformInfo(t) {VdsInstrumentAgent.appHandlers = t.appHandlers, VdsInstrumentAgent.pageHandlers = t.pageHandlers, VdsInstrumentAgent.actionEventTypes = t.actionEventTypes, VdsInstrumentAgent.originalApp = t.originalApp, VdsInstrumentAgent.originalPage = t.originalPage, VdsInstrumentAgent.originalComponent = t.originalComponent, VdsInstrumentAgent.originalBehavior = t.originalBehavior;}, initInstrument: function initInstrument(t) {if (VdsInstrumentAgent.initPlatformInfo(gioGlobal.platformConfig), VdsInstrumentAgent.observer = t, VdsInstrumentAgent.pageHandlers.forEach(function (t) {var e = t;VdsInstrumentAgent.defaultPageCallbacks[t] = function () {VdsInstrumentAgent.observer.pageListener(this, e, arguments);};}), VdsInstrumentAgent.observer.cdpObserver || VdsInstrumentAgent.appHandlers.forEach(function (t) {var e = t;VdsInstrumentAgent.defaultAppCallbacks[t] = function () {VdsInstrumentAgent.observer.appListener(this, e, arguments);};}), gioGlobal.platformConfig.canHook) {var _t4 = gioGlobal.platformConfig.hooks;if (_t4.App && !gioGlobal.growingAppInited) {if (App = function App() {return VdsInstrumentAgent.GrowingApp(arguments[0]);}, "swan" === gioGlobal.gio__platform) for (var _t5 in VdsInstrumentAgent.originalApp) {App[_t5] = VdsInstrumentAgent.originalApp[_t5];}gioGlobal.growingAppInited = !0;}if (_t4.Page && !gioGlobal.growingPageInited) {if (Page = function Page() {return VdsInstrumentAgent.GrowingPage(arguments[0]);}, "swan" === gioGlobal.gio__platform) for (var _t6 in VdsInstrumentAgent.originalPage) {Page[_t6] = VdsInstrumentAgent.originalPage[_t6];}gioGlobal.growingPageInited = !0;}_t4.Component && !gioGlobal.growingComponentInited && (Component = function Component() {return VdsInstrumentAgent.GrowingComponent(arguments[0]);}, gioGlobal.growingComponentInited = !0), _t4.Behavior && !gioGlobal.growingBehaviorInited && (Behavior = function Behavior() {return VdsInstrumentAgent.GrowingBehavior(arguments[0]);}, gioGlobal.growingBehaviorInited = !0);}gioGlobal.GioPage = VdsInstrumentAgent.GrowingPage, gioGlobal.GioApp = VdsInstrumentAgent.GrowingApp, gioGlobal.GioComponent = VdsInstrumentAgent.GrowingComponent, gioGlobal.GioBehavior = VdsInstrumentAgent.GrowingBehavior, gioGlobal.trackApp = function () {var t = arguments[0];return t._growing_app_ = !0, VdsInstrumentAgent.instrument(t);}, gioGlobal.trackPage = function () {var t = arguments[0];return t._growing_page_ = !0, VdsInstrumentAgent.instrument(t);}, gioGlobal.trackComponent = function () {return VdsInstrumentAgent.instrument(arguments[0]);}, gioGlobal.trackBehavior = function () {return VdsInstrumentAgent.instrument(arguments[0]);};} };var Page$1 = /*#__PURE__*/function () {function Page$1() {_classCallCheck(this, Page$1);this.queries = {}, this.pvar = {};}_createClass(Page$1, [{ key: "touch", value: function touch(t) {this.path = t.route || t.__route__, this.time = Date.now(), this.query = this.queries[t.route] ? this.queries[t.route] : void 0;} }, { key: "addQuery", value: function addQuery(t, e) {this.queries[t.route] = e ? this._getQuery(e) : null;} }, { key: "_getQuery", value: function _getQuery(t) {return Object.keys(t || {}).filter(function (t) {return "wxShoppingListScene" !== t;}).map(function (e) {return "".concat(e, "=").concat(t[e]);}).join("&");} }, { key: "touchRelatedPvarData", value: function touchRelatedPvarData(t) {var e = "".concat(t.p, "?").concat(t.q);this.pvar[e] ? this.pvar[e].push(t) : this.pvar[e] = [t];} }, { key: "equalsPage", value: function equalsPage(t) {return t.p == this.path && t.q == this.query;} }]);return Page$1;}();var eventTypeMap = { tap: ["tap", "click"], longtap: ["longtap"], input: ["input"], blur: ["change", "blur"], submit: ["submit"], focus: ["focus"] },fnExpRE = /^function[^\(]*\([^\)]+\).*[^\.]+\.([^\(]+)\(.*/;function getComKey(t) {return t && t.$attrs ? t.$attrs.mpcomid : "0";}function isVmKeyMatchedCompkey(t, e, i) {return !(!t || !e) && (e === t || 0 === e.indexOf(t + i));}function getVM(t, e, i) {void 0 === e && (e = []);var n = e.slice(1);if (!n.length) return t;var o = n.join(i),r = "";return n.reduce(function (t, e) {for (var n = t.$children.length, s = 0; n > s; s++) {var a = t.$children[s],g = getComKey(a);if (r && (g = r + i + g), isVmKeyMatchedCompkey(g, o, i)) return r = g, t = a;}return t;}, t);}function _getHandle(t, e, i) {void 0 === i && (i = []);var n = [];if (!t || !t.tag) return n;var o = t || {},r = o.data;void 0 === r && (r = {});var s = o.children;void 0 === s && (s = []);var a = o.componentInstance;a ? Object.keys(a.$slots).forEach(function (t) {var o = a.$slots[t];(Array.isArray(o) ? o : [o]).forEach(function (t) {n = n.concat(_getHandle(t, e, i));});}) : s.forEach(function (t) {n = n.concat(_getHandle(t, e, i));});var g = r.attrs,l = r.on;return g && l && g.eventid === e && i.forEach(function (t) {var e = l[t];"function" == typeof e ? n.push(e) : Array.isArray(e) && (n = n.concat(e));}), n;}var ONCE = "~",CUSTOM = "^";function isMatchEventType(t, e) {return t === e || "regionchange" === e && ("begin" === t || "end" === t);}var VueProxy = /*#__PURE__*/function () {function VueProxy(t) {_classCallCheck(this, VueProxy);this.vueVM = t;}_createClass(VueProxy, [{ key: "getHandle", value: function getHandle(t) {var e = t.type,i = t.target;void 0 === i && (i = {});var n = (t.currentTarget || i).dataset;void 0 === n && (n = {});var o = n.comkey;void 0 === o && (o = "");var r = n.eventid;var s = -1 !== o.indexOf("_") ? "_" : ",";var a = getVM(this.vueVM, o.split(s), s);if (a) {var g = _getHandle(a._vnode, r, eventTypeMap[e] || [e]);if (g.length) {var l = g[0];if (l.isProxied) return l.proxiedName;try {var p = ("" + l).replace("\n", "");if (p.match(fnExpRE)) {var h = fnExpRE.exec(p);if (h && h.length > 1) return h[1];}} catch (t) {}return l.name;}}} }, { key: "handleEvent", value: function handleEvent(t) {var e = t.type;var i;var n = (t.currentTarget || t.target).dataset;return (n.eventOpts || n["event-opts"]).forEach(function (t) {var n = t[0];var o = t[1];n = (n = n.charAt(0) === CUSTOM ? n.slice(1) : n).charAt(0) === ONCE ? n.slice(1) : n, o && isMatchEventType(e, n) && o.forEach(function (t) {i = t[0];});}), i;} }]);return VueProxy;}();function EventEmitter() {}var proto = EventEmitter.prototype,originalGlobalValue = exports.EventEmitter;function indexOfListener(t, e) {for (var i = t.length; i--;) {if (t[i].listener === e) return i;}return -1;}function alias(t) {return function () {return this[t].apply(this, arguments);};}function isValidListener(t) {return "function" == typeof t || t instanceof RegExp || !(!t || "object" != typeof t) && isValidListener(t.listener);}proto.getListeners = function (t) {var e,i,n = this._getEvents();if (t instanceof RegExp) for (i in e = {}, n) {n.hasOwnProperty(i) && t.test(i) && (e[i] = n[i]);} else e = n[t] || (n[t] = []);return e;}, proto.flattenListeners = function (t) {var e,i = [];for (e = 0; t.length > e; e += 1) {i.push(t[e].listener);}return i;}, proto.getListenersAsObject = function (t) {var e,i = this.getListeners(t);return i instanceof Array && ((e = {})[t] = i), e || i;}, proto.addListener = function (t, e) {if (!isValidListener(e)) throw new TypeError("listener must be a function");var i,n = this.getListenersAsObject(t),o = "object" == typeof e;for (i in n) {n.hasOwnProperty(i) && -1 === indexOfListener(n[i], e) && n[i].push(o ? e : { listener: e, once: !1 });}return this;}, proto.on = alias("addListener"), proto.addOnceListener = function (t, e) {return this.addListener(t, { listener: e, once: !0 });}, proto.once = alias("addOnceListener"), proto.defineEvent = function (t) {return this.getListeners(t), this;}, proto.defineEvents = function (t) {for (var e = 0; t.length > e; e += 1) {this.defineEvent(t[e]);}return this;}, proto.removeListener = function (t, e) {var i,n,o = this.getListenersAsObject(t);for (n in o) {o.hasOwnProperty(n) && -1 !== (i = indexOfListener(o[n], e)) && o[n].splice(i, 1);}return this;}, proto.off = alias("removeListener"), proto.addListeners = function (t, e) {return this.manipulateListeners(!1, t, e);}, proto.removeListeners = function (t, e) {return this.manipulateListeners(!0, t, e);}, proto.manipulateListeners = function (t, e, i) {var n,o,r = t ? this.removeListener : this.addListener,s = t ? this.removeListeners : this.addListeners;if ("object" != typeof e || e instanceof RegExp) for (n = i.length; n--;) {r.call(this, e, i[n]);} else for (n in e) {e.hasOwnProperty(n) && (o = e[n]) && ("function" == typeof o ? r.call(this, n, o) : s.call(this, n, o));}return this;}, proto.removeEvent = function (t) {var e,i = typeof t,n = this._getEvents();if ("string" === i) delete n[t];else if (t instanceof RegExp) for (e in n) {n.hasOwnProperty(e) && t.test(e) && delete n[e];} else delete this._events;return this;}, proto.removeAllListeners = alias("removeEvent"), proto.emitEvent = function (t, e) {var i,n,o,r,s = this.getListenersAsObject(t);for (r in s) {if (s.hasOwnProperty(r)) for (i = s[r].slice(0), o = 0; i.length > o; o++) {!0 === (n = i[o]).once && this.removeListener(t, n.listener), n.listener.apply(this, e || []) === this._getOnceReturnValue() && this.removeListener(t, n.listener);}}return this;}, proto.trigger = alias("emitEvent"), proto.emit = function (t) {var e = Array.prototype.slice.call(arguments, 1);return this.emitEvent(t, e);}, proto.setOnceReturnValue = function (t) {return this._onceReturnValue = t, this;}, proto._getOnceReturnValue = function () {return !this.hasOwnProperty("_onceReturnValue") || this._onceReturnValue;}, proto._getEvents = function () {return this._events || (this._events = {});}, EventEmitter.noConflict = function () {return exports.EventEmitter = originalGlobalValue, EventEmitter;};var gioEmitter = new EventEmitter();function validVar(t) {return null !== t && "[object Object]" === Object.prototype.toString.call(t) && Object.keys(t).length > 0;}var BaseObserver = /*#__PURE__*/function () {function BaseObserver(t) {_classCallCheck(this, BaseObserver);this.growingio = t, this.esid = 0, this.info = t.info;}_createClass(BaseObserver, [{ key: "setUserAttributes", value: function setUserAttributes(t) {throw Error("this a interface function");} }, { key: "setUserId", value: function setUserId(t) {throw Error("this a interface function");} }, { key: "clearUserId", value: function clearUserId() {throw Error("this a interface function");} }, { key: "sendVisitEvent", value: function sendVisitEvent(t, e) {throw Error("this a interface function");} }, { key: "track", value: function track(t, e) {throw Error("this a interface function");} }, { key: "_sendEvent", value: function _sendEvent(t) {throw Error("this a interface function");} }]);return BaseObserver;}();var CLICK_TYPE = { tap: "clck", longpress: "lngprss", longtap: "lngprss" };var Observer = /*#__PURE__*/function (_BaseObserver) {_inherits(Observer, _BaseObserver);var _super = _createSuper(Observer);function Observer(t) {var _this3;_classCallCheck(this, Observer);_this3 = _super.call(this, t), _this3.growingio = t, _this3.info = t.info, _this3.currentPage = new Page$1(), _this3.scene = null, _this3._sessionId = null, _this3.cs1 = t.storage.getCs1(), _this3.lastPageEvent = null, _this3.lastVstArgs = void 0, _this3.lastCloseTime = null, _this3.lastScene = void 0, _this3.keepAlive = t.vdsConfig.keepAlive, _this3.isPauseSession = !1, _this3.isGettingUid = !1, _this3.esid = 0 === _this3.info.esid ? 1 : _this3.info.esid, _this3.uploadingMessages = [], _this3.visitSentSuccess = !1;return _this3;}_createClass(Observer, [{ key: "resetSessionId", value: function resetSessionId() {this._sessionId = null;} }, { key: "pauseSession", value: function pauseSession() {this.isPauseSession = !0;} }, { key: "getVisitorId", value: function getVisitorId() {return this.info.uid;} }, { key: "getUserId", value: function getUserId() {return this.cs1;} }, { key: "getGioInfo", value: function getGioInfo() {return "giou=".concat(this.getVisitorId(), "&giocs1=").concat(this.getUserId(), "&gios=").concat(this.sessionId, "&gioprojectid=").concat(this.growingio.vdsConfig.projectId, "&gioappid=").concat(this.growingio.vdsConfig.appId, "&gioplatform=").concat(gioGlobal.platformConfig.platform);} }, { key: "setUserId", value: function setUserId(t) {var e = t + "";e && 100 > e.length && (this.cs1 = e, gioEmitter.emitEvent("setCs1", [e]), this.lastPageEvent && this._sendEvent(this.lastPageEvent));} }, { key: "clearUserId", value: function clearUserId() {this.cs1 = null, gioEmitter.emitEvent("clearCs1");} }, { key: "inWxHasProfile", value: function inWxHasProfile() {try {return "MinP" === this.info.platform && !!wx.getUserProfile;} catch (t) {return !1;}} }, { key: "appListener", value: function appListener(t, e, i) {var n = gioGlobal.platformConfig.lisiteners.app;this.isPauseSession || (this.growingio.vdsConfig.debug && console.log("App.", e, Date.now()), e == n.appShow ? (gioEmitter.emitEvent("appShow"), this._parseScene(i), !this.lastCloseTime || Date.now() - this.lastCloseTime > this.keepAlive || this.lastScene && this.scene !== this.lastScene ? (this.resetSessionId(), this.sendVisitEvent(i, this.growingio.vdsConfig.getLocation.type), this.lastVstArgs = i, this.useLastPageTime = !1, this.lastPageEvent = void 0) : this.lastPageEvent && (this.useLastPageTime = !0)) : e == n.appClose ? (this.lastScene = this.scene, this.growingio.forceFlush(), this.info.syncStorage(), this.isPauseSession || (this.lastCloseTime = Date.now(), this.sendVisitCloseEvent())) : e == n.appError && this.sendErrorEvent(i));} }, { key: "pageListener", value: function pageListener(t, e, i) {var n = gioGlobal.platformConfig.lisiteners.page;if (this.growingio.vdsConfig.wepy && (t.route = t.$is), t.route || (t.route = this.info.getPagePath(t)), this.growingio.vdsConfig.debug && console.log("Page.", t.route, "#", e, Date.now()), e === n.pageShow) {octopusClearMap();var _e6 = getDataByPath(t, "$page.query");Utils.isEmpty(_e6) || "quickApp" !== gioGlobal.gio__platform || this.currentPage.addQuery(t, _e6), this.isPauseSession ? this.isPauseSession = !1 : (this.currentPage.touch(t), this.useLastPageTime && this.currentPage.equalsPage(this.lastPageEvent) && (this.currentPage.time = this.lastPageEvent.tm, this.useLastPageTime = !1), this.sendPage(t)), onPageShow(this.currentPage);} else if (e === n.pageLoad) {var _e7 = i[0];Utils.isEmpty(_e7) || "quickApp" === gioGlobal.gio__platform || this.currentPage.addQuery(t, _e7);} else if (e === n.pageHide) this.growingio._observer && this.growingio._observer.disconnect();else if (e === n.pageClose) this.currentPage.pvar["".concat(this.currentPage.path, "?").concat(this.currentPage.query)] = void 0;else if (e === n.shareApp || e === n.shareTime) {var _n4 = null,o = null;2 > i.length ? 1 === i.length && (i[0].from ? _n4 = i[0] : i[0].title && (o = i[0])) : (_n4 = i[0], o = i[1]), this.pauseSession(), this.sendPageShare(t, _n4, o, e);} else if ("onTabItemTap" === e) {this.sendTabClick(i[0]);}} }, { key: "actionListener", value: function actionListener(t, e) {if (getDataByPath(t, "currentTarget.dataset.growingIgnore") || getDataByPath(t, "target.dataset.growingIgnore")) return;var i = gioGlobal.platformConfig.lisiteners.actions;if ("_cmlEventProxy" !== e) {if ("handleProxy" === e && this.growingio.vueRootVMs && this.growingio.vueRootVMs[this.currentPage.path]) {var _i7 = new VueProxy(this.growingio.vueRootVMs[this.currentPage.path]).getHandle(t);_i7 && (e = _i7);}if ("__e" === e && this.growingio.vueRootVMs && this.growingio.vueRootVMs[this.currentPage.path]) {var _i8 = new VueProxy(this.growingio.vueRootVMs[this.currentPage.path]).handleEvent(t);_i8 && (e = _i8);}if ("_proxy" === e && this.growingio.wepyRootVMs) {var _i9 = t.currentTarget.dataset.wpyEvt,n = t.type;getDataByPath(this, "growingio.wepyRootVMs.".concat(_i9, ".").concat(n)) && (e = this.growingio.wepyRootVMs[_i9][n]);}getDataByPath(this, "growingio.taroRootVMs.".concat(e)) && (e = this.growingio.taroRootVMs[e]), this.growingio.vdsConfig.debug && console.log("Click on ", e, Date.now()), -1 !== i.click.indexOf(t.type) ? (this.sendClick(t, e), "getuserinfo" === t.type && (this.inWxHasProfile() || getDataByPath(t, "detail.userInfo") && this.setVisitor(t.detail.userInfo))) : -1 !== i.change.indexOf(t.type) ? this.sendChange(t, e) : -1 !== i.submit.indexOf(t.type) && this.sendSubmit(t, e);}} }, { key: "sendVideoCstm", value: function sendVideoCstm(t) {this.track("video-".concat(t.type), t.var);} }, { key: "track", value: function track(t, e) {if ("string" != typeof t || null === t || void 0 === t || 0 === t.length || !t.match(/^\w+$/) || 10 > parseInt(t[0])) return void console.warn("埋点格式不正确, 事件名只能包含数字，字母和下划线，且不以数字开头, 请参考文档");var i = { t: "cstm", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query, n: t };validVar(e) && (i.var = e), this._sendEvent(i);} }, { key: "identify", value: function identify(t, e) {if (void 0 === t || 0 === t.length) return;this.growingio.login(t), this._sendEvent({ t: "vstr", var: { openid: t, unionid: e } });} }, { key: "setVisitor", value: function setVisitor(t) {if (validVar(t)) {this._sendEvent({ t: "vstr", var: t });}} }, { key: "setUser", value: function setUser(t) {if (this.cs1 && validVar(t)) {this._sendEvent({ t: "ppl", var: t });}} }, { key: "setPage", value: function setPage(t) {if (validVar(t)) {var e = { t: "pvar", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query, var: t };this.currentPage.touchRelatedPvarData(e), this._sendEvent(e);}} }, { key: "setEvar", value: function setEvar(t) {if (validVar(t)) {this._sendEvent({ t: "evar", var: t });}} }, { key: "getLocation", value: function getLocation(t) {this.growingio.vdsConfig.getLocation.autoGet = !0, this.sendVisitEvent(this.lastVstArgs, t);} }, { key: "sendVisitEvent", value: function sendVisitEvent(t, e) {var _this4 = this;this.info.getSystemInfo().then(function (i) {var n = i || {};var o = { t: "vst", tm: Date.now(), av: _this4.info.sdkVer, db: n.brand, dm: n.model && n.model.replace(/<.*>/, ""), sh: Utils.getScreenHeight(n), sw: Utils.getScreenWidth(n), os: Utils.getOS(n.platform), osv: Utils.getOSV(n.version), l: n.language };if (_this4.growingio.vdsConfig.appVer && (o.cv = _this4.growingio.vdsConfig.appVer + ""), t.length > 0) {var _i10 = t[0];o.p = _i10.path || _this4.info.getPagePath(), Utils.isEmpty(_i10.query) || (o.q = _this4.currentPage._getQuery(_i10.query)), o.ch = "scn:".concat(_this4.info.scnPrefix).concat(_this4.scene), "quickapp" === _this4.info.platform ? o.rf = _this4.info.appSource.packageName : _i10.referrerInfo && _i10.referrerInfo.appId && getDataByPath(_i10, "referrerInfo.appId") && (o.rf = _i10.referrerInfo.appId), _this4.info.getNetworkType().then(function (t) {if (t && (o.nt = t.networkType, _this4._sendEvent(o), _this4.visitSentSuccess = !0, _this4.growingio.vdsConfig.getLocation.autoGet)) {var _t7 = JSON.parse(JSON.stringify(o));e && -1 !== ["wgs84", "gcj02", 0, 1, 2].indexOf(e) || (e = "my" === gioGlobal.gio__platform ? 0 : "wgs84"), _this4.info.getLocation(e).then(function (e) {e && (_t7.lat = e.latitude, _t7.lng = e.longitude, _this4._sendEvent(_t7));});}});}});} }, { key: "sendVisitCloseEvent", value: function sendVisitCloseEvent() {this._sendEvent({ t: "cls", p: this.currentPage.path, q: this.currentPage.query });} }, { key: "sendErrorEvent", value: function sendErrorEvent(t) {if (t && t.length > 0) {var e = t[0];if ("string" != typeof e) return;var i = { t: "cstm", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query, n: "onError", var: appErrorParse(e) };this._sendEvent(i);}} }, { key: "sendPage", value: function sendPage(t) {var _this5 = this;var e = { t: "page", tm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query };e.rp = this.lastPageEvent ? this.lastPageEvent.p : this.scene ? "scn:".concat(this.info.scnPrefix).concat(this.scene) : null;var i = this.info.getPageTitle(t);i && i.length > 0 && (e.tl = i), this.visitSentSuccess ? this._sendEvent(e) : setTimeout(function () {return _this5._sendEvent(e);}, 100), this.lastPageEvent = e;var n = this.currentPage.pvar["".concat(this.currentPage.path, "?").concat(this.currentPage.query)];n && n.length > 0 && n.map(function (t) {t.ptm = _this5.currentPage.time, _this5._sendEvent(t);});} }, { key: "sendPageShare", value: function sendPageShare(t, e, i) {var n = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : "onShareAppMessage";var o = { t: "cstm", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query, n: n, var: Object.assign({ from: e ? e.from : void 0, target: e && e.target ? e.target.id : void 0, title: i ? i.title : void 0, path: i ? decodeURI(i.path) : void 0 }, i.attributes) };this._sendEvent(o);} }, { key: "getNodeXpath", value: function getNodeXpath(t, e) {var i = (t.currentTarget || t.target).id;if ((!i || "swan" === gioGlobal.gio__platform && /^_[0-9a-f]+/.test(i)) && (i = ""), !this.isOctopus || (/^bound .*/.test(e = t.handler) && (e = e.replace("bound ", "")), /^t[0-9]+$/.test(i) && (i = ""), i && !e && (e = "anonymousFunc"), i || e)) return "".concat(i, "#").concat(e);} }, { key: "sendClick", value: function sendClick(t, e) {var i = { t: CLICK_TYPE[t.type] || "clck", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query },n = t.currentTarget || t.target,o = this.getNodeXpath(t, e);if (!o) return;var r = { x: o };n.dataset.title && (r.v = n.dataset.title), n.dataset.src && (r.h = n.dataset.src), void 0 !== n.dataset.index && (r.idx = /^[\d]+$/.test(n.dataset.index) ? parseInt(n.dataset.index) : -1), i.e = [r], this._sendEvent(i);} }, { key: "sendSubmit", value: function sendSubmit(t, e) {var i = { t: "sbmt", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query },n = this.getNodeXpath(t, e);n && (i.e = [{ x: n }], this._sendEvent(i));} }, { key: "sendChange", value: function sendChange(t, e) {var i = { t: "chng", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query },n = t.currentTarget || t.target,o = this.getNodeXpath(t, e);if (!o) return;var r = { x: o },s = getDataByPath(t, "detail.value") || getDataByPath(t, "target.attr.value");n.dataset && (n.dataset.growingTrack || n.dataset.growingtrack) && ("boolean" == typeof s || s && 0 !== s.length) && ("[object Array]" === Object.prototype.toString.call(s) ? (s = s.join(",")) && (r.v = s) : r.v = s), "change" === t.type && "autoplay" === getDataByPath(t, "detail.source") || (i.e = [r], this._sendEvent(i));} }, { key: "sendTabClick", value: function sendTabClick(t) {var e = { t: "clck", ptm: this.currentPage.time, p: this.currentPage.path, q: this.currentPage.query, e: [{ x: "#onTabItemTap", v: t.text, idx: t.index, h: "string" == typeof t.pagePath ? t.pagePath : JSON.stringify(t.pagePath) }] };this._sendEvent(e);} }, { key: "_sendEvent", value: function _sendEvent(t) {var _this6 = this;if (this.info.uid && this.esid) {var e = this._buildEvent(t, this.info);this.growingio.upload(e);} else if (this.isGettingUid) this.uploadingMessages.push(t);else {this.isGettingUid = !0;var _e8 = this.info.getStorage(this.info.uidKey),i = this.info.getStorage(this.info.esidKey);Promise.all([_e8, i]).then(function (_ref3) {var _ref4 = _slicedToArray(_ref3, 2),e = _ref4[0],i = _ref4[1];e || (e = Utils.guid()), i || (i = 1), _this6.info.uid = e, _this6.esid = i, _this6.isGettingUid = !1;var n = _this6._buildEvent(t, _this6.info);for (_this6.growingio.upload(n); 0 !== _this6.uploadingMessages.length;) {var _t8 = _this6.uploadingMessages.shift();_t8 = _this6._buildEvent(_t8, _this6.info), _this6.growingio.upload(_t8);}});}} }, { key: "_buildEvent", value: function _buildEvent(t, e) {if (t.u = e.uid, t.s = this.sessionId, t.tm = t.tm || Date.now(), t.d = this.growingio.vdsConfig.appId, t.b = e.platform, null !== this.cs1 && (t.cs1 = this.cs1), t.var) {var _e9 = t.var;Object.keys(_e9).forEach(function (i) {"string" != typeof _e9[i] && (t.var[i] = JSON.stringify(_e9[i]));});}return this.esid > 1e9 && (this.esid = 1), t.esid = this.esid++, this.info.esid = this.esid, t;} }, { key: "_parseScene", value: function _parseScene(t) {if ("quickapp" === this.info.platform) {var _t9 = this.info.getAppSource(),e = _t9.extra || {},i = _t9.type || "";this.scene = i, this.setVisitor({ extra: JSON.stringify(e) });} else if (t.length > 0) {var _e10 = t[0];this.scene = _e10.query && _e10.query.wxShoppingListScene ? _e10.query.wxShoppingListScene : _e10.scene ? _e10.scene : "NA";}} }, { key: "isOctopus", get: function get() {return this.growingio.vdsConfig.octopus;} }, { key: "sessionId", get: function get() {return null === this._sessionId && (this._sessionId = Utils.guid()), this._sessionId;} }]);return Observer;}(BaseObserver);var Info = /*#__PURE__*/function () {function Info(t) {_classCallCheck(this, Info);this.growing = t, this._uid = void 0, this._esid = void 0, this._gioId = void 0, this._userId = void 0, this._systemInfo = null, this.uidKey = "_growing_uid_", this.esidKey = "_growing_esid_", this.gioIdKey = "_growing_gioId_", this.userIdKey = "_growing_userId_", this.platform = gioGlobal.platformConfig.platform, this.sdkVer = gioGlobal.platformConfig.sdkVer, this.scnPrefix = gioGlobal.platformConfig.scnPrefix, "quickapp" !== gioGlobal.platformConfig.platform && this.initUserInfo();}_createClass(Info, [{ key: "initUserInfo", value: function initUserInfo() {this.uid = this.getStorageSync(this.uidKey) || Utils.guid(), this.esid = +this.getStorageSync(this.esidKey), this.gioId = this.getStorageSync(this.gioIdKey), this._userId = this.getStorageSync(this.userIdKey);} }, { key: "syncStorage", value: function syncStorage() {var _this7 = this;this.getStorage(this.uidKey).then(function (t) {t || _this7.setStorage(_this7.uidKey, _this7._uid);});} }, { key: "getAppId", value: function getAppId() {throw Error("this a interface function");} }, { key: "getAppSource", value: function getAppSource() {throw Error("this a interface function");} }, { key: "getPageTitle", value: function getPageTitle(t) {throw Error("this a interface function");} }, { key: "getPagePath", value: function getPagePath(t) {throw Error("this a interface function");} }, { key: "getStorage", value: function getStorage(t) {throw Error("this a interface function");} }, { key: "getStorageSync", value: function getStorageSync(t) {throw Error("this a interface function");} }, { key: "setStorage", value: function setStorage(t, e) {throw Error("this a interface function");} }, { key: "getSystemInfo", value: function getSystemInfo() {throw Error("this a interface function");} }, { key: "getNetworkType", value: function getNetworkType() {throw Error("this a interface function");} }, { key: "getLocation", value: function getLocation(t) {throw Error("this a interface function");} }, { key: "request", value: function request(_ref5) {var t = _ref5.url,e = _ref5.header,i = _ref5.method,n = _ref5.data,o = _ref5.timeout,r = _ref5.success,s = _ref5.fail;throw Error("this a interface function");} }, { key: "collectImp", value: function collectImp(t) {var e = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;throw Error("this a interface function");} }, { key: "initShareAppMessage", value: function initShareAppMessage(t) {throw Error("this a interface function");} }, { key: "getCurrentPage", value: function getCurrentPage() {throw Error("this a interface function");} }, { key: "getQuery", value: function getQuery() {throw Error("this a interface function");} }, { key: "getReferrer", value: function getReferrer() {throw Error("this a interface function");} }, { key: "getInitPath", value: function getInitPath() {throw Error("this a interface function");} }, { key: "onAppShow", value: function onAppShow(t) {throw Error("this is a interdace function");} }, { key: "onAppHide", value: function onAppHide(t) {throw Error("this is a interface function");} }, { key: "timeoutAbort", value: function timeoutAbort(t, e) {t && t.abort && setTimeout(function () {t.abort();}, (e || 1e4) + 10);} }, { key: "esid", set: function set(t) {this._esid = t, this.setStorage(this.esidKey, this._esid);}, get: function get() {return this._esid;} }, { key: "uid", set: function set(t) {this._uid = t, this.setStorage(this.uidKey, this._uid);}, get: function get() {return this._uid;} }, { key: "gioId", set: function set(t) {this._gioId = t, this.setStorage(this.gioIdKey, this._gioId);}, get: function get() {return this._gioId;} }, { key: "userId", get: function get() {return this._userId;}, set: function set(t) {this._userId = t, this.setStorage(this.userIdKey, this._userId);} }, { key: "systemInfo", get: function get() {return this._systemInfo;} }]);return Info;}();var Weixin = /*#__PURE__*/function (_Info) {_inherits(Weixin, _Info);var _super2 = _createSuper(Weixin);function Weixin(t) {var _this8;_classCallCheck(this, Weixin);_this8 = _super2.call(this, t), _this8.growingio = t;return _this8;}_createClass(Weixin, [{ key: "getAppId", value: function getAppId() {this._systemInfo || (this._systemInfo = wx.getSystemInfoSync());var t = void 0;return 0 > Utils.compareVersion(this._systemInfo.SDKVersion, "2.2.2") || (t = wx.getAccountInfoSync().miniProgram.appId), t;} }, { key: "getPagePath", value: function getPagePath() {var t = this.getCurrentPage();return t && t.route;} }, { key: "getCurrentPage", value: function getCurrentPage() {var t = getCurrentPages();return t[t.length - 1];} }, { key: "getPageTitle", value: function getPageTitle(t) {var e = "";try {if (t.data.title && t.data.title.length > 0 && (e = Array.isArray(t.data.title) ? t.data.title.join(" ") : t.data.title), 0 === e.length && __wxConfig) {if (__wxConfig.tabBar) {var i = __wxConfig.tabBar.list.find(function (e) {return e.pathPath == t.route || e.pagePath == "".concat(t.route, ".html");});i && i.text && (e = i.text);}if (0 == e.length) {var _i11 = __wxConfig.page[t.route] || __wxConfig.page["".concat(t.route, ".html")];e = _i11 ? _i11.window.navigationBarTitleText : __wxConfig.global.window.navigationBarTitleText;}}} catch (t) {return "";}return e;} }, { key: "getStorage", value: function getStorage(t) {return new Promise(function (e) {wx.getStorage({ key: t, success: function success(t) {return e(t.data);}, fail: function fail() {return e("");} });});} }, { key: "getStorageSync", value: function getStorageSync(t) {return wx.getStorageSync(t);} }, { key: "setStorage", value: function setStorage(t, e) {wx.setStorage({ key: t, data: e });} }, { key: "getSystemInfo", value: function getSystemInfo() {var _this9 = this;return new Promise(function (t) {wx.getSystemInfo({ success: function success(e) {_this9._systemInfo = e, t(e);}, fail: function fail() {return t(null);} });});} }, { key: "getNetworkType", value: function getNetworkType() {return new Promise(function (t) {wx.getNetworkType({ success: function success(e) {return t(e);}, fail: function fail() {return t(null);} });});} }, { key: "getSetting", value: function getSetting() {return new Promise(function (t) {wx.getSetting({ success: t, fail: t });});} }, { key: "getLocation", value: function getLocation(t) {return new Promise(function (e) {wx.getLocation({ type: t, success: function success(t) {return e(t);}, fail: function fail() {return e(null);} });});} }, { key: "request", value: function request(_ref6) {var t = _ref6.url,e = _ref6.header,i = _ref6.method,n = _ref6.data,o = _ref6.timeout,r = _ref6.success,s = _ref6.fail,a = _ref6.complete;var g = wx.request({ url: t, header: e, method: i, data: n, timeout: o, success: r, fail: s, complete: a });return _get(_getPrototypeOf(Weixin.prototype), "timeoutAbort", this).call(this, g, o), g;} }, { key: "getImageInfo", value: function getImageInfo(t) {return wx.getImageInfo(t);} }, { key: "collectImp", value: function collectImp(t) {var _this10 = this;var e = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;var i = null;this.growingio.vdsConfig.vue && (t = t.$mp.page), this.growingio.vdsConfig.taro && (t = t.$scope);var n = {};this.growingio._observer && this.growingio._observer.disconnect(), this.growingio._observer = t.isComponent ? t.createIntersectionObserver({ observeAll: !0 }) : wx.createIntersectionObserver(t, { observeAll: !0 }), (i = e ? this.growingio._observer.relativeTo(e) : this.growingio._observer.relativeToViewport()).observe(".growing_collect_imp", function (t) {if (!t.id || n[t.id]) return;var e = getManualImpInfo(t.dataset),i = e.eventId,o = e.properties;i && t.id && !n[t.id] && (_this10.growingio.observer.track(i, o), n[t.id] = !0);});} }, { key: "setStorageSync", value: function setStorageSync(t, e) {wx.setStorageSync(t, JSON.stringify(e));} }, { key: "removeStorageSync", value: function removeStorageSync(t) {wx.removeStorageSync(t);} }, { key: "navigateTo", value: function navigateTo(t) {wx.navigateTo(t);} }, { key: "switchTab", value: function switchTab(t) {wx.switchTab(t);} }, { key: "onAppShow", value: function onAppShow(t) {wx.onAppShow(t);} }, { key: "onAppHide", value: function onAppHide(t) {wx.onAppHide(t);} }]);return Weixin;}(Info);var Uploader = /*#__PURE__*/function () {function Uploader(t) {_classCallCheck(this, Uploader);this.growingio = t, this.maxRequests = 3, this.requestCount = 0, this.timeout = 5e3, this.messageQueue = [], this.uploadingQueue = [], this.uploadTimer = null, this.projectId = this.growingio.vdsConfig.projectId, this.appId = this.growingio.vdsConfig.appId, this.host = this.growingio.vdsConfig.host, this.url = "".concat(this.host, "/projects/").concat(this.projectId, "/apps/").concat(this.appId, "/collect");}_createClass(Uploader, [{ key: "upload", value: function upload(t) {var _this11 = this;this.messageQueue.push(t);var e = this.messageQueue.length;e > 100 && (this.messageQueue = this.messageQueue.slice(e - 100)), this.uploadTimer || (this.uploadTimer = setTimeout(function () {_this11._flush(), _this11.uploadTimer = null;}, 1e3));} }, { key: "forceFlush", value: function forceFlush() {this.uploadTimer && (clearTimeout(this.uploadTimer), this.uploadTimer = null), this._flush();} }, { key: "_flush", value: function _flush() {var _this12 = this;if (this.requestCount >= this.maxRequests) return;var t = function t() {_this12.messageQueue.length > 0 && _this12._flush();};this.uploadingQueue = this.messageQueue.slice(), this.messageQueue = [], this.uploadingQueue.length > 0 && (this.requestCount++, this.growingio.info.request({ url: "".concat(this.url, "?stm=").concat(Date.now()), header: { "content-type": "application/json" }, method: "POST", data: this.uploadingQueue, timeout: this.timeout, success: function success() {_this12.requestCount--, t();}, fail: function (e) {return function (i) {_this12.requestCount--, 204 !== i.status ? _this12.messageQueue = e.concat(_this12.messageQueue) : t();};}(this.uploadingQueue) }));} }]);return Uploader;}();var Config$1 = /*#__PURE__*/function () {function Config$1(t) {_classCallCheck(this, Config$1);this.growingio = t;}_createClass(Config$1, [{ key: "setDataCollect", value: function setDataCollect(t) {this.growingio.vdsConfig.dataCollect = t;} }, { key: "enableDebug", value: function enableDebug(t) {t && console && (this.growingio.vdsConfig.debug = t);} }, { key: "setTrackerScheme", value: function setTrackerScheme(t) {var e = (t + "").toLocaleLowerCase();"http" !== e && "https" !== e || (this.growingio.vdsConfig.scheme = "".concat(t, "://"));} }, { key: "setTrackerHost", value: function setTrackerHost(t) {isString(t) && (this.growingio.vdsConfig.host = t);} }]);return Config$1;}();var duration5min = 3e5;var GrowingIO = /*#__PURE__*/function () {function GrowingIO() {_classCallCheck(this, GrowingIO);this.uploadingMessages = [], this.start = !1;}_createClass(GrowingIO, [{ key: "init", value: function init(t, e, i) {this.start || (e && "string" != typeof e && (i = e, e = ""), e || i || (e = "", i = {}), "alip" === platformConfig$1.platform && (i.vue || i.taro || i.cml || i.wepy || i.octopus) && (platformConfig$1.canHook = !0), i.usePlugin && (platformConfig$1.canHook = !1), this.vdsConfig = { projectId: t, appId: e, appVer: i.version || "", debug: i.debug || !1, forceLogin: i.forceLogin || !1, followShare: void 0 === i.followShare || i.followShare, usePlugin: i.usePlugin || !1, getLocation: { autoGet: ("object" == typeof i.getLocation ? i.getLocation.autoGet : i.getLocation) || !1, type: "object" == typeof i.getLocation && i.getLocation.type || "wgs84" }, dataCollect: !("boolean" == typeof i.stopTrack && i.stopTrack || "boolean" == typeof i.dataCollect && !i.dataCollect), keepAlive: +i.keepAlive || duration5min, vue: i.vue || !1, taro: i.taro || !1, cml: i.cml || !1, wepy: i.wepy || !1, octopus: i.octopus || !1, host: i.host && i.host.indexOf("http") >= 0 ? "https://".concat(i.host.slice(i.host.indexOf("://") + 3)) : "https://wxapi.growingio.com", sdkVer: platformConfig$1.sdkVer, comAsPage: i.comAsPage || !1 }, gioGlobal.vdsConfig = this.vdsConfig, gioGlobal.platformConfig = platformConfig$1, this.info = new Weixin(this), e || (this.vdsConfig.appId = this.info.getAppId() || t), this.observer = new Observer(this), this.uploader = new Uploader(this), this.config = new Config$1(this), this.start = !0, i.vue && (this.vueRootVMs = {}, proxyVue(i.vue, this)), i.taro && (this.taroRootVMs = {}, proxyTaro(i.taro, this, this.vdsConfig)), i.cml && (gioGlobal.platformConfig.hooks.Component = !1, proxyCml(i.cml)), i.wepy && (this.wepyRootVMs = {}, proxyWepy(i.wepy, this, this.vdsConfig)), "quickapp" === gioGlobal.platformConfig.platform && this.info.initShareAppMessage(this), this._start());} }, { key: "setConfig", value: function setConfig(t) {this.init(t.projectId, t.appId, t);} }, { key: "setVue", value: function setVue(t) {this.vueRootVMs || (this.vueRootVMs = {}), this.vdsConfig.vue = !0, proxyVue(t, this);} }, { key: "_start", value: function _start() {VdsInstrumentAgent.initInstrument(this.observer);try {gioGlobal && platformConfig$1.canHook && (platformConfig$1.hooks.App && (gioGlobal.App = App), platformConfig$1.hooks.Page && (gioGlobal.Page = Page), platformConfig$1.hooks.Component && (gioGlobal.Component = Component), platformConfig$1.hooks.Behavior && (gioGlobal.Behavior = Behavior));} catch (t) {}} }, { key: "setDataCollect", value: function setDataCollect(t) {this.config.setDataCollect(t);} }, { key: "login", value: function login(t) {if (this.vdsConfig.forceLogin) {this.info.uid = t, this.vdsConfig.forceLogin = !1;var _iterator2 = _createForOfIteratorHelper(this.uploadingMessages),_step2;try {for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {var e = _step2.value;e.u = t, this.upload(e);}} catch (err) {_iterator2.e(err);} finally {_iterator2.f();}}} }, { key: "upload", value: function upload(t) {this.vdsConfig.dataCollect ? this.vdsConfig.forceLogin ? (console.error("GrowingIO: [ForceLogin] is set to true, but openID is null, data collection has been suspended! Call the [identify] function to report openID to resume data collection."), this.uploadingMessages.push(t)) : (this.vdsConfig.debug && console.info("generate new event", JSON.stringify(t, 0, 2)), gioEmitter.emitEvent("upload", [t]), this.uploader.upload(t)) : console.warn("GrowingIO: [dataCollect] is false! not send any event.");} }, { key: "forceFlush", value: function forceFlush() {this.info.esid = this.observer.esid, this.uploader.forceFlush();} }, { key: "proxy", value: function proxy(t, e) {try {if ("setVue" === t) this.setVue(e[0]);else if ("setDataCollect" === t) this.setDataCollect(e[0]);else if ("setStopTrack" === t) this.setDataCollect(!e[0]);else if ("collectImp" === t) this.collectImp(e[0], e[1]);else if (this.observer && this.observer[t]) return this.observer[t].apply(this.observer, e);} catch (t) {console.error(t);}} }, { key: "collectImp", value: function collectImp(t) {var e = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;this.info.collectImp(t, e);} }]);return GrowingIO;}();function isEqual(t, e) {if (typeof t != typeof e) return !1;if ("string" == typeof t || "number" == typeof t || "boolean" == typeof t || "function" == typeof t || void 0 == t || void 0 == e) return Object.is(t, e);if (Array.isArray(t) && Array.isArray(e)) return t.length === e.length && t.every(function (t, i) {return isEqual(t, e[i]);});if ("[object Object]" === Object.prototype.toString.call(t) && "[object Object]" === Object.prototype.toString.call(e)) {var i = Object.keys(t),n = Object.keys(e);return !(!i.every(function (i) {return e.hasOwnProperty(i) && isEqual(t[i], e[i]);}) || !n.every(function (i) {return t.hasOwnProperty(i) && isEqual(e[i], t[i]);}));}return !1;}var getParameterByName = function getParameterByName(t, e) {if ("string" != typeof e) return;"?" !== e[0] && (e = "?" + e), t = t.replace(/[\[\]]/g, "\\$&");var i = RegExp("[?&]" + t + "(=([^&#]*)|&|#|$)").exec(e);return i ? i[2] ? decodeURIComponent(i[2].replace(/\+/g, " ")) : "" : null;};var BaseUserStorage = /*#__PURE__*/function () {function BaseUserStorage(t) {_classCallCheck(this, BaseUserStorage);this.growingio = t, this.namespace = "push-user-status", this.userTagDuration = 432e7, this.eventTagDuration = 864e5, this.handleCs1 = this.handleCs1.bind(this), this.handleClearCs1 = this.handleClearCs1.bind(this);}_createClass(BaseUserStorage, [{ key: "handleCs1", value: function handleCs1(t) {t !== this.get("cs1") && (this.set("cs1", t), this.set("bcs", void 0), gioEmitter.emit("cs1Refresh"));} }, { key: "handleClearCs1", value: function handleClearCs1() {this.set("cs1", void 0), this.set("bcs", void 0);} }, { key: "setIsPreview", value: function setIsPreview(t) {if (!t.q) return;var e = getParameterByName("scene", t.q);if (!e) return;var i = getParameterByName("gioMessageId", e);if (!i) return;var n = { s: "splash", pw: "popupWindow", p: "push", b: "banner", ab: "abTest" }[getParameterByName("mt", e)] || "";gioGlobal.__growing__.marketingPreview = { messageId: i, msgType: n };} }, { key: "storeFilters", value: function storeFilters(t, e, i) {var n = e(),o = this.get(n, this.eventTagDuration) || [],r = i.call(this, t),s = [].concat(_toConsumableArray(o), _toConsumableArray(r));this.set(n, s);} }, { key: "generateEventKey", value: function generateEventKey(t) {return "".concat(t, "#").concat(this.get("cs1") || "");} }, { key: "_get", value: function _get(t) {return this.growingio.info.getStorageSync("".concat(this.namespace, "#").concat(t));} }, { key: "getUserAttrs", value: function getUserAttrs() {var t = this.generateEventKey("userAttrs");return this.get(t) || [];} }, { key: "getTriggerAttrs", value: function getTriggerAttrs() {var t = this.generateEventKey("triggerAttrs");return this.get(t) || [];} }, { key: "set", value: function set(t, e) {var i = this._get(t),n = new Date();n.setHours(0), n.setMinutes(0), n.setSeconds(0);var o = { startAt: n.getTime(), value: e };i && isEqual(o.value, JSON.parse(i).value) || this.growingio.info.setStorageSync("".concat(this.namespace, "#").concat(t), o);} }, { key: "get", value: function get(t) {var e = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.userTagDuration;var i = this._get(t);if (!i) return;var n = JSON.parse(i);return Date.now() > n.startAt + e ? void 0 : n.value;} }, { key: "getCs1", value: function getCs1() {return this.get("cs1");} }]);return BaseUserStorage;}();var UserStorage = /*#__PURE__*/function (_BaseUserStorage) {_inherits(UserStorage, _BaseUserStorage);var _super3 = _createSuper(UserStorage);function UserStorage(t) {var _this13;_classCallCheck(this, UserStorage);_this13 = _super3.call(this, t), _this13.growingio = t, _this13.handleEvent = _this13.handleEvent.bind(_assertThisInitialized(_this13)), _this13.addEventListener();return _this13;}_createClass(UserStorage, [{ key: "addEventListener", value: function addEventListener() {gioEmitter.on("appOpen", this.handleEvent), gioEmitter.on("upload", this.handleEvent), gioEmitter.on("setCs1", this.handleCs1), gioEmitter.on("clearCs1", this.handleClearCs1);} }, { key: "handleEvent", value: function handleEvent(t) {if (t) switch (t.t) {case "vst":case "vstr":case "ppl":this.storeFilters(t, this.generateEventKey.bind(this, "userAttrs"), this.formatUserFilterVars);break;case "cstm":this.storeFilters(t, this.generateEventKey.bind(this, "triggerAttrs"), this.formatEventFilterVars);case "page":this.setIsPreview(t);}} }, { key: "formatUserFilterVars", value: function formatUserFilterVars(t) {var e = t.var;return e ? Object.keys(e).map(function (t) {return { key: t, value: e[t] };}) : [];} }, { key: "formatEventFilterVars", value: function formatEventFilterVars(t) {var e = t.var;return [{ key: t.n, value: "", event_variable: e ? Object.keys(e).map(function (t) {return { key: t, value: e[t] };}) : [] }];} }]);return UserStorage;}(BaseUserStorage);try {var _t10 = "wx";initGlobal(_t10), "frame" !== _t10 && (gioGlobal.gio__platform = _t10);} catch (t) {}var growingio = new GrowingIO();exports.growingio = growingio;var gio = function gio() {var t = arguments[0];if (!t) return;var e = 2 > arguments.length ? [] : [].slice.call(arguments, 1);if ("init" === t) {if (gioGlobal.vdsConfig) return void console.warn("SDK已经初始化成功，请检查是否加载过其他平台sdk");if (1 > e.length) return void console.log('初始化 GrowingIO SDK 失败。请使用 gio("init", "你的GrowingIO项目ID", "你的应用APP_ID", options);');growingio.init(e[0], e[1], e[2]);} else {if ("setConfig" !== t) return growingio.proxy(t, e);if (!e[0]) return void console.log("初始化 GrowingIO SDK 失败。请检查你的config文件是否引入正确");if (!e[0].projectId) return void console.log("初始化 GrowingIO SDK 失败。请检查你的 GrowingIO项目ID, 你的应用APP_ID 是否填写正确");growingio.setConfig(e[0]);}};console.log("init growingio...");var GioPage = VdsInstrumentAgent.GrowingPage,GioApp = VdsInstrumentAgent.GrowingApp,GioComponent = VdsInstrumentAgent.GrowingComponent,GioBehavior = VdsInstrumentAgent.GrowingBehavior,gioEmitter$1 = gioEmitter,userStorage = growingio.storage = new UserStorage(growingio);exports.gioEmitter = gioEmitter$1;exports.GioBehavior = GioBehavior;exports.GioComponent = GioComponent;exports.GioApp = GioApp;exports.GioPage = GioPage;gioGlobal.__growing__ = { gioEmitter: gioEmitter$1, gio: gio, growingio: growingio, userStorage: userStorage, marketingPreview: void 0, entry: "saas" }, gioGlobal.gio = gio;var _default = gio;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 51 */
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */
 /*!***********************************************************!*\
   !*** /Users/anoi/HBuilderProjects/yeti/utils/services.js ***!
   \***********************************************************/
@@ -10595,7 +10562,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.getProfile = getProfile;exports.getHistoryToday = getHistoryToday;exports.login = login;exports.register = register;exports.getTabMenus = getTabMenus;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 22));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var regRequest = function regRequest(url, params) {return new Promise(function (resolve, reject) {
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.getProfile = getProfile;exports.getHistoryToday = getHistoryToday;exports.login = login;exports.register = register;exports.getTabMenus = getTabMenus;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var regRequest = function regRequest(url, params) {return new Promise(function (resolve, reject) {
     uni.request({
       url: url,
       data: params,
@@ -10677,6 +10644,100 @@ var indexapi = {
   toCircusee: 'https://chao.fun/api/v0/post/circusee',
   submitVote: 'https://chao.fun/api/v0/submit_vote' };
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */,
+/* 84 */,
+/* 85 */,
+/* 86 */,
+/* 87 */,
+/* 88 */,
+/* 89 */,
+/* 90 */,
+/* 91 */,
+/* 92 */,
+/* 93 */,
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */,
+/* 99 */,
+/* 100 */,
+/* 101 */
+/*!*****************************************************************!*\
+  !*** /Users/anoi/HBuilderProjects/yeti/constants/tabBarData.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = [
+{
+  iconPath: "/static/tabIcons/home.png",
+  selectedIconPath: "/static/tabIcons/home_active.png",
+  text: "首页",
+  pagePath: "/pages/home/index" },
+
+{
+  iconPath: "/static/tabIcons/plates.png",
+  selectedIconPath: "/static/tabIcons/plates_active.png",
+  text: "板块",
+  pagePath: "/pages/plates/index" },
+
+{
+  iconPath: "/static/tabIcons/publish.png",
+  selectedIconPath: "/static/tabIcons/publish_active.png",
+  text: "发布",
+  midButton: true,
+  pagePath: "/pages/publish/index" },
+
+{
+  iconPath: "/static/tabIcons/message.png",
+  selectedIconPath: "/static/tabIcons/message_active.png",
+  text: "消息",
+  pagePath: "/pages/message/index" },
+
+{
+  iconPath: "/static/tabIcons/personal.png",
+  selectedIconPath: "/static/tabIcons/personal_active.png",
+  text: "我的",
+  pagePath: "/pages/personal/index" }];exports.default = _default;
 
 /***/ })
 ]]);

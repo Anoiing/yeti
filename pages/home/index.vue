@@ -1,9 +1,9 @@
 <template>
   <view class="layout">
     <!-- 自定义导航栏 -->
-    <customNav />
+    <CustomNav />
     <!-- 历史上的今天 -->
-    <historyToday />
+    <HistoryToday />
     <!-- 分类菜单 -->
     <u-tabs
       :list="menuList"
@@ -15,23 +15,24 @@
     ></u-tabs>
     <!-- 内容 -->
     <view class="content">
+      <u-button @click="handleLocation">获取Location</u-button>
       <u-button @click="handleDetail">进入详情页</u-button>
     </view>
-    <mainTabBar />
+    <MainTabBar />
   </view>
 </template>
 
 <script>
-import mainTabBar from "../../components/mainTabBar/index.vue";
-import customNav from "../../components/customNav/index.vue";
-import historyToday from './components/historyToday/index.vue';
+import MainTabBar from "../../components/MainTabBar";
+import CustomNav from "../../components/CustomNav";
+import HistoryToday from './components/HistoryToday';
 import { getProfile, getTabMenus } from "utils/services.js";
 
 export default {
   components: {
-    mainTabBar,
-    customNav,
-    historyToday,
+    MainTabBar,
+    CustomNav,
+    HistoryToday,
   },
   data() {
     return {
@@ -65,6 +66,11 @@ export default {
     handleDetail() {
       console.log("detail click");
       uni.navigateTo({ url: "../detail/index" });
+    },
+
+    handleLocation() {
+      console.log(gioGlobal);
+      console.log(gioGlobal.gio('getLocation'));
     },
   },
 };

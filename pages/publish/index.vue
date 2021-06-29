@@ -1,19 +1,19 @@
 <template>
   <view>
-    <customNav />
+    <CustomNav />
     <view class="content"> 发布 </view>
-    <mainTabBar />
+    <MainTabBar />
   </view>
 </template>
 
 <script>
-import mainTabBar from "../../components/mainTabBar/index.vue";
-import customNav from "../../components/customNav/index.vue";
+import MainTabBar from "../../components/MainTabBar";
+import CustomNav from "../../components/CustomNav";
 
 export default {
   components: {
-    mainTabBar,
-    customNav,
+    MainTabBar,
+    CustomNav,
   },
   data() {
     return {

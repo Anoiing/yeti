@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "navSearch",
+  name: "NavSearch",
   data() {
     return {};
   },
